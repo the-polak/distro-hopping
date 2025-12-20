@@ -4,7 +4,6 @@
 
 [Appearance]
 AllowColorCodes=false
-ChannelSplitterSizes=1220,173
 CloseButtons=true
 NickColor0=28,220,154
 NickColor1=28,220,154
@@ -15,12 +14,51 @@ NickColor5=28,220,154
 NickColor6=28,220,154
 NickColor7=28,220,154
 NickColor8=28,220,154
-TopicSplitterSizes=28,764
-TreeSplitterSizes=155,860
 UseBoldNicks=true
+
+[Channel 0]
+EnableNotifications=true
+Name=#wastedmemory
+Password=
+
+[Channel 1]
+EnableNotifications=true
+Name=#whuppy
+Password=
+
+[Channel 2]
+EnableNotifications=true
+Name=#dragonmere
+Password=
 
 [Highlight List]
 HighlightNickColor=246,116,0
+
+[Identity 0]
+AuthType=saslplain
+AutomaticAway=false
+AutomaticUnaway=false
+AwayInactivity=10
+AwayMessage=
+AwayNick=
+AwayReason=Gone away for now
+Bot=nickserv
+Codec=UTF-8
+Ident=kielbasa
+InsertRememberLineOnAway=false
+KickReason=User terminated!
+Name=Default Identity
+Nicknames=kielbasa,kielbasa_,kielbasa__
+NickservCommand=identify
+PartReason=Konversation terminated!
+Password=
+PemClientCertFile=
+PreShellCommand=
+QuitReason=Konversation terminated!
+Realname=kielbasa
+ReturnMessage=
+SaslAccount=
+ShowAwayMessage=false
 
 [Message Text Colors]
 ActionMessage=239,240,241
@@ -33,6 +71,25 @@ QueryMessage=239,240,241
 ServerMessage=239,240,241
 TextViewBackground=35,38,41
 Time=127,140,141
+
+[Server 0]
+BypassProxy=false
+Password=
+Port=6667
+SSLEnabled=false
+Server=irc.rogueserver.com
+
+[ServerGroup 0]
+AutoConnect=false
+AutoJoinChannels=
+ChannelHistory=Channel 0,Channel 1,Channel 2
+ConnectCommands=
+EnableNotifications=true
+Expanded=true
+Identity=Default Identity
+Name=RogueServer
+NotifyList=
+ServerList=Server 0
 
 [Tab Notifications]
 TabNotificationsHighlightsColor=246,116,0
