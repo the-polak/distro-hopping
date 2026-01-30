@@ -56,6 +56,21 @@ apt clean
 systemctl isolate multi-user.target && exit
 ```
 
+## Flatpak / Flathub
+Flatpak should be installed. Configure Flathub:
+
+### Enable Flathub in Discover (KDE) See [this](https://flathub.org/en/setup/Debian) for GNOME
+```bash
+sudo apt install plasma-discover-backend-flatpak
+```
+
+### Install Flahub Repo
+```bash
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+```
+
+#### RESTART!
+
 
 
 ## Fonts
