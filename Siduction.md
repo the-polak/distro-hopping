@@ -17,6 +17,8 @@
 >
 >[A Small APT Cookbook](https://manual.siduction.org/index_en.html)  
 
+> [NOTE]
+> `SUDO` is required unless `sudo` is enabled. 
 
 # Siduction Post-Install
 
