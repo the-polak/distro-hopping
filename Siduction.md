@@ -206,8 +206,9 @@ distrobox
 
 ## Generic Obsidian Sync featuring nextcloud, dolphin and fstab
 
-TBD
+~~TBD~~
 
+Buy Obisidian sync. Sell out. Its ok. 
 
 
 <BR><BR><BR><BR>
