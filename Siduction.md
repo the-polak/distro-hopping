@@ -18,7 +18,7 @@
 >[A Small APT Cookbook](https://manual.siduction.org/index_en.html)  
 
 
-> [NOTE]
+> [!NOTE]
 > `SUDO` is required unless `sudo` is enabled. 
 
 
