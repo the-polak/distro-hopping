@@ -24,7 +24,8 @@ aliases:
 
 <br>
 <br>
-## [Update](https://wiki.cachyos.org/configuration/post_install_setup/#updating-the-system)
+## Update
+[Update](https://wiki.cachyos.org/configuration/post_install_setup/#updating-the-system)
 Multiple update paths exist. See the [official CachyOS post-install guide.](https://wiki.cachyos.org/configuration/post_install_setup/#updating-the-system)
 ```bash
 	sudo pacman -Syu
